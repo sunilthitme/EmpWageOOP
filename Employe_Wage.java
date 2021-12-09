@@ -12,8 +12,8 @@ public class Employe_Wage {
 			int dayinMonth=20;
 			int maxWorkingHour=100;
 			int totalWage=0;
-		   
-			for(int day=0; day<dayinMonth ; day++) {
+			for(int day=0; day<dayinMonth && totalWorkingHour<maxWorkingHour; day++) {
+				
 				switch(presentAbsent) {
 				case 1:
 				       workingHour=8;
